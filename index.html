@@ -9,43 +9,69 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
+    <header>
+      <img src="./assets/images/logo.svg" alt="Website logo" width="65px" height="40px">
+      <img src="./assets/images/icon-menu.svg" alt="Menu icon closed" width="40px" height="17px">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+
     <main>
-      Home
-      New
-      Popular
-      Trending
-      Categories
-  
-      The Bright Future of Web 3.0?
-  
-      We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-      But is it really fulfilling its promise?
-  
-      Read more
-  
-      New 
-  
-      Hydrogen VS Electric Cars
-      Will hydrogen-fueled cars ever catch up to EVs?
-  
-      The Downsides of AI Artistry
-      What are the possible adverse effects of on-demand AI image generation?
-  
-      Is VC Funding Drying Up?
-      Private funding by VC firms is down 50% YOY. We take a look at what that means.
-  
-      01
-      Reviving Retro PCs
-      What happens when old PCs are given modern upgrades?
-  
-      02
-      Top 10 Laptops of 2022
-      Our best picks for various needs and budgets.
-  
-      03
-      The Growth of Gaming
-      How the pandemic has sparked fresh opportunities.
-    </main>
+      <section class="hero">
+        <article>
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3.0 illustration">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+          <button><a href="">Read more</a></button>
+        </article>
+      </section>
+
+      <aside class="new-articles">
+        <h2>New</h2>
+        <article>
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </article>
+
+        <article>
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </article>
+
+        <article>
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </article>
+      </aside>
+
+      <section class="featured-articles">
+        <article>
+          <div class="article-number">01</div>
+          <h4>Reviving Retro PCs</h4>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </article>
+        
+        <article>
+          <div class="article-number">02</div>
+          <h4>Top 10 Laptops of 2022</h4>
+          <p>Our best picks for various needs and budgets.</p>
+        </article>
+
+        <article>
+          <div class="article-number">03</div>
+          <h4>The Growth of Gaming</h4>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </article>
+      </section>
+     </main>
     
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
