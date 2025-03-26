@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta name="description" content=""><!-- A COMPLETER -->
+    <meta name="description" content="Actualités et analyses sur le Web 3.0, l'IA, le gaming et les dernières tendances technologiques">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="stylesheet" href="./css/style.css">
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
     <header>
-      <img src="./assets/images/logo.svg" alt="Website logo" width="65px" height="40px">
-      <img src="./assets/images/icon-menu.svg" alt="Menu icon closed" width="40px" height="17px">
-      <nav>
+      <div class="header-images">
+        <img src="./assets/images/logo.svg" alt="Website logo" width="65px" height="40px">
+        <img id="button-menu-open" src="./assets/images/icon-menu.svg" alt="Menu icon open" width="40px" height="17px">
+      </div>
+
+      <nav class="menu">
+        <img id="button-menu-close" src="./assets/images/icon-menu-close.svg" alt="Menu icon close" width="32px" height="31px">
         <ul>
           <li>Home</li>
           <li>New</li>
@@ -26,11 +30,13 @@
     <main>
       <section class="hero">
         <article>
-          <img src="./assets/images/image-web-3-mobile.jpg" alt="Web 3.0 illustration">
-          <h1>The Bright Future of Web 3.0?</h1>
-          <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-            But is it really fulfilling its promise?</p>
-          <button><a href="">READ MORE</a></button>
+          <img id="illustration" src="./assets/images/image-web-3-mobile.jpg" alt="Web 3.0 illustration">
+          <div class="hero-content">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <button><a href="#">READ MORE</a></button>
+          </div>
         </article>
       </section>
 
@@ -83,3 +89,7 @@
     <script src="./js/script.js" defer></script>
   </body>
 </html>
+
+
+
+
