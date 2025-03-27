@@ -56,7 +56,7 @@ header {
     align-items: center;
     position:fixed;
     top:0;
-    z-index: 98;
+    z-index: 50;
     background-color: var(--Off-white);
     padding:20px 40px 20px 0px;
 
@@ -214,6 +214,19 @@ h3:hover {
 
 .attribution { font-size: 11px; text-align: center;margin-top: 1rem; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+#overlay {
+    position:fixed;
+    display: none;
+    height: 100%;
+    width:100%;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:90;
+}
 }
 
 
