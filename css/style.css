@@ -58,7 +58,7 @@ header {
     top:0;
     z-index: 50;
     background-color: var(--Off-white);
-    padding:20px 40px 20px 0px;
+    padding:20px 30px 20px 0px;
 
 }
 
@@ -100,6 +100,7 @@ ul li {
 
 li:hover {
     color: var(--Soft-orange);
+    cursor: pointer;
 }
 
 article img {
@@ -124,7 +125,8 @@ button {
 
 button:hover, button:hover > a {
     background-color: var(--Very-dark-blue);
-    color:var(--Off-white)
+    color:var(--Off-white);
+    cursor: pointer;
 }
 
 button a {
@@ -158,6 +160,7 @@ h3 {
 
 h3:hover {
     color:var(--Soft-orange);
+    cursor: pointer;
 }
 
 .underline::after {
@@ -203,6 +206,7 @@ h3:hover {
 
 .feature h4:hover {
     color: var(--Soft-orange);
+    cursor: pointer;
 }
 
 .feature p {
@@ -262,6 +266,7 @@ h3:hover {
 
     #button-menu-open, #button-menu-close {
         display:none;
+        cursor: pointer;
     }
 
     ul {
@@ -282,6 +287,7 @@ h3:hover {
 
     li:hover {
         color: var(--Soft-orange);
+        cursor: pointer;
     }
 
     main {
@@ -354,7 +360,8 @@ h3:hover {
     
     button:hover, button:hover > a {
         background-color: var(--Very-dark-blue);
-        color:var(--Off-white)
+        color:var(--Off-white);
+        cursor: pointer;
     }
     
     button a {
@@ -392,6 +399,7 @@ h3:hover {
 
     .new-articles h3:hover {
         color:var(--Soft-orange);
+        cursor: pointer;
     }
     
     .underline::after {
@@ -445,6 +453,7 @@ h3:hover {
     
     .feature h4:hover {
         color: var(--Soft-orange);
+        cursor: pointer;
     }
     
     .feature p {
